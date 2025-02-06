@@ -1,0 +1,193 @@
+/* Home.module.css */
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 2.2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  z-index: 1000;
+
+  display: flex;            /* Enable flexbox */
+  justify-content: center;  /* Center content horizontally */
+  align-items: center;      /* Center content vertically */
+}
+
+body {
+  padding-top: 50px; /* Keeps content below the fixed header */
+}
+
+.logo {
+  height: 80px; /* Logo size */
+  width: auto;
+}
+
+
+/* Video Container */
+.videoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Make the video responsive and span the full width */
+.videoContainer iframe {
+  width: 100vw;
+  height: 90vh; /* Adjust height as needed */
+  border-radius: 0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+/* About Section */
+.about {
+  padding: 80px 40px;
+  text-align: center;
+  width: 100%;
+  box-shadow: none; /* Removes shadow */
+  border-radius: 0; /* Removes rounded corners */
+  margin: 0; /* Removes spacing around it */
+  border-bottom: 3px solid white;
+}
+
+
+.about h2 {
+  font-size: 2.8rem;
+  margin-bottom: 25px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.about p {
+  font-size: 1.3rem;
+  line-height: 1.9;
+  max-width: 850px;
+  margin: 0 auto;
+  color: #555;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+
+/* Services Section */
+.services {
+  padding: 80px 40px;
+  text-align: center;
+  width: 100%;
+  box-shadow: none; /* Removes shadow */
+  border-radius: 0; /* Removes rounded corners */
+  margin: 0; /* Removes spacing around it */
+}
+
+
+.services h2 {
+  font-size: 2.8rem;
+  margin-bottom: 25px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.services li {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+  position: relative;
+  padding-left: 30px;
+}
+
+.services li::before {
+  content: "•";
+  font-size: 2.2rem;
+  color: white;
+  position: absolute;
+  left: 0;
+  top: -5px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #222;
+  color: white;
+  padding: 30px 20px;
+  font-size: 1rem;
+  border-top: 5px solid white;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.footer p {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .videoContainer iframe {
+      height: 75vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+      font-size: 2.5rem;
+      padding: 30px 15px;
+  }
+
+  .videoContainer iframe {
+      height: 350px;
+  }
+
+  .about h2,
+  .services h2 {
+      font-size: 2.3rem;
+  }
+
+  .services ul {
+      flex-direction: column;
+      gap: 30px;
+  }
+
+  .footer {
+      font-size: 0.9rem;
+  }
+}
