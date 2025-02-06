@@ -53,6 +53,7 @@
 /* About Section */
 .about {
   padding: 80px 40px;
+  background-color: #101010;
   text-align: center;
   width: 100%;
   box-shadow: none; /* Removes shadow */
@@ -84,6 +85,7 @@
 /* Services Section */
 .services {
   padding: 80px 40px;
+  background-color: #101010;
   text-align: center;
   width: 100%;
   box-shadow: none; /* Removes shadow */

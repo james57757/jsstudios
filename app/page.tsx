@@ -11,6 +11,8 @@ export default function Home() {
 
       <header className={styles.header}>
         <img src="/logo.png" alt="JS Studios Logo" className={styles.logo} />
+        Content
+        Contact
       </header>
 
 
