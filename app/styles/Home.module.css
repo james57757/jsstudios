@@ -24,10 +24,6 @@
   align-items: center;      /* Center content vertically */
 }
 
-body {
-  padding-top: 50px; /* Keeps content below the fixed header */
-}
-
 .logo {
   height: 80px; /* Logo size */
   width: auto;
