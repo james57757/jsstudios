@@ -1,9 +1,4 @@
-/* Home.module.css */
-html {
-  scroll-behavior: smooth;
-}
 
-/* Header */
 .header {
   position: fixed;
   top: 0;
