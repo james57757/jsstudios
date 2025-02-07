@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from './styles/Home.module.css';
+import { FaYoutube, FaInstagram } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -10,10 +11,15 @@ export default function Home() {
       </Head>
 
       <header className={styles.header}>
+        <a href="#my-content" className={styles.navText}>
+          <span>Content</span>
+        </a>
         <img src="/logo.png" alt="JS Studios Logo" className={styles.logo} />
-        Content
-        Contact
+        <a href="#contact-footer" className={styles.navText}>
+          <span>Contact</span>
+        </a>
       </header>
+
 
 
       <div className={styles.videoContainer}>
@@ -25,31 +31,45 @@ export default function Home() {
 
 
 
-      <section id="about" className={styles.about}>
-        <h2>About Me</h2>
+      <section id="my-content" className={styles.about}>
+        <h2>My Content</h2>
+        
+        {/* Video Grid */}
+        <div className={styles.videoGrid}>
+          <iframe src="https://www.youtube.com/embed/JUyCFlw2ah4" allowFullScreen></iframe>
+          <iframe src="https://www.youtube.com/embed/ZKQknYo079Q" allowFullScreen></iframe>
+          <iframe src="https://www.youtube.com/embed/Q5tKhx4FMiU" allowFullScreen></iframe>
+          <iframe src="https://www.youtube.com/embed/yxIP169sdpk" allowFullScreen></iframe>
+        </div>
+
+        {/* Paragraph */}
         <p>
-          My name is Satchel White. My hobby has always been creating videos, capturing memories of my life. 
-          With that passion, I’ve chosen to create this company to help others with a similar mission. 
-          The future of brand marketing and image is centered on its social media presence. 
-          I believe consistent and quality content will grow your brand exponentially. 
-          Contact me for more information!
+        When I look back at my content, I unlock cherished memories that bring 
+        me a sense of happiness. My goal with brands is to create that same emotional 
+        connection—to design experiences that make consumers feel something positive 
+        every time they interact with a brand. By creating a vibe that resonates deeply
+        with people, the brand becomes more than just a logo or product. It becomes a 
+        source of positive memories and feelings that consumers associate with trust and 
+        loyalty.
         </p>
       </section>
 
-      <section id="services" className={styles.services}>
-        <h2>My Services</h2>
-        <ul>
-          <li>Video Production</li>
-          <li>Social Media Marketing</li>
-        </ul>
-      </section>
-
-      <footer className={styles.footer}>
-        <p>Contact Us: 949-527-2486 | sunshinemedia6646@gmail.com</p>
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a> | 
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a> | 
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+      <footer id="contact-footer" className={styles.footer}>
+        <div className={styles.contactInfo}>
+          <p>jsstudiosproduction@gmail.com</p>
+          <p>949-527-2486</p>
+        </div>
+        <div className={styles.socialLinks}>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <FaInstagram className={styles.icon} />
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+            <FaYoutube className={styles.icon} />
+          </a>
+        </div>
       </footer>
+
+
     </div>
   );
 }
