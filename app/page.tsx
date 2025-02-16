@@ -44,13 +44,20 @@ export default function Home() {
 
         {/* Paragraph */}
         <p>
-        When I look back at my content, I unlock cherished memories that bring 
-        me a sense of happiness. My goal with brands is to create that same emotional 
-        connection—to design experiences that make consumers feel something positive 
-        every time they interact with a brand. By creating a vibe that resonates deeply
-        with people, the brand becomes more than just a logo or product. It becomes a 
-        source of positive memories and feelings that consumers associate with trust and 
-        loyalty.
+        Looking back at my content, I unlock cherished memories that bring me a sense of happiness. 
+        My goal with brands I collaborate with is to help create that same emotional connection—to design experiences that make consumers feel something positive. 
+        By creating a vibe that resonates deeply with people, the brand becomes more than just a logo or product. 
+        It becomes a source of positive memories.
+        </p>
+      </section>
+
+      <section id="my-services" className={styles.about}>
+        <h2>My Services</h2>
+        {/* Paragraph */}
+        <p>
+        I provide high-quality content creation, cinematography, 
+        and editing, along with expert social media management, 
+        including strategic post scheduling and audience engagement.
         </p>
       </section>
 
@@ -60,10 +67,10 @@ export default function Home() {
           <p>949-527-2486</p>
         </div>
         <div className={styles.socialLinks}>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/satchel.vlgs/" target="_blank" rel="noopener noreferrer">
             <FaInstagram className={styles.icon} />
           </a>
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/@SW22343" target="_blank" rel="noopener noreferrer">
             <FaYoutube className={styles.icon} />
           </a>
         </div>
