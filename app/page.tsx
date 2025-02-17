@@ -45,9 +45,8 @@ export default function Home() {
         {/* Paragraph */}
         <p>
         Looking back at my content, I unlock cherished memories that bring me a sense of happiness. 
-        My goal with brands I collaborate with is to help create that same emotional connection—to design experiences that make consumers feel something positive. 
-        By creating a vibe that resonates deeply with people, the brand becomes more than just a logo or product. 
-        It becomes a source of positive memories.
+        My goal is to help create that same emotional connection by creating a vibe that resonates deeply with people. 
+        The brand becomes more than just a logo or product, it becomes a new memory.
         </p>
       </section>
 
