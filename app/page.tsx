@@ -44,7 +44,7 @@ export default function Home() {
 
         {/* Paragraph */}
         <p>
-        When I look back at my content, it brings back good happy memories. Through your brand's content, I want to create a similar happy feeling associated with your brand.
+        When I look back at my content, it brings back good happy memories. Through your brand&apos;s content, I want to create a similar happy feeling associated with your brand.
         </p>
       </section>
 
