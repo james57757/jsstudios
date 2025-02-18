@@ -52,7 +52,7 @@ export default function Home() {
         <h2>My Services</h2>
         {/* Paragraph */}
         <p>
-        I can bring ideas to life through quality content creation and filmmaking. I also can provide social media management, and scheduling posts..
+        I can bring ideas to life through quality content creation and filmmaking. I also can provide social media management, and scheduling posts.
         </p>
       </section>
 
