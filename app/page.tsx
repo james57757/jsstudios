@@ -44,9 +44,7 @@ export default function Home() {
 
         {/* Paragraph */}
         <p>
-        Looking back at my content, I unlock cherished memories that bring me a sense of happiness. 
-        My goal is to help create that same emotional connection by creating a vibe that resonates deeply with people. 
-        The brand becomes more than just a logo or product, it becomes a new memory.
+        When I look back at my content, it brings back good happy memories. Through your brand's content, I want to create a similar happy feeling associated with your brand.
         </p>
       </section>
 
@@ -54,9 +52,7 @@ export default function Home() {
         <h2>My Services</h2>
         {/* Paragraph */}
         <p>
-        I provide high-quality content creation, cinematography, 
-        and editing, along with expert social media management, 
-        including strategic post scheduling and audience engagement.
+        I can bring ideas to life through quality content creation and filmmaking. I also can provide social media management, and scheduling posts..
         </p>
       </section>
 
