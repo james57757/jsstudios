@@ -37,15 +37,11 @@ export default function Home() {
         {/* Video Grid */}
         <div className={styles.videoGrid}>
           <iframe src="https://www.youtube.com/embed/JUyCFlw2ah4" allowFullScreen></iframe>
-          <iframe src="https://www.youtube.com/embed/ZKQknYo079Q" allowFullScreen></iframe>
+          
           <iframe src="https://www.youtube.com/embed/Q5tKhx4FMiU" allowFullScreen></iframe>
-          <iframe src="https://www.youtube.com/embed/yxIP169sdpk" allowFullScreen></iframe>
+          
         </div>
 
-        {/* Paragraph */}
-        <p>
-        When I look back at my content, it brings back good happy memories. Through your brand&apos;s content, I want to create a similar happy feeling associated with your brand.
-        </p>
       </section>
 
       <section id="my-services" className={styles.about}>
